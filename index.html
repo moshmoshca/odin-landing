@@ -9,73 +9,79 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-            <p>Stormlight Archive</p>
+        <div class="menu-container">
+            <div class="menu">
+                <div class="logo">
+                    <p>Stormlight Archive</p>
+                </div>
+                <ul class="links">
+                    <li><a href="https://stormlightarchive.fandom.com/wiki/The_Stormlight_Archive" target="_blank">Books</a></li>
+                    <li><a href="https://stormlightarchive.fandom.com/wiki/Category:Characters" target="_blank">Characters</a></li>
+                    <li><a href="https://stormlightarchive.fandom.com/wiki/Roshar" target="_blank">Universe</a></li>
+                </ul>
+            </div>
         </div>
-        <nav class="menu">
-            <ul>
-                <li>Books</li>
-                <li>Characters</li>
-                <li>Universe</li>
-            </ul>
-        </nav>
     </header>
-     <!--------------------------- HERO ------------------------------>
-    <section class="hero">
-        <div class="hero-text">
-            <h1>The Way of Kings</h1>
-            <p>The Way of Kings is an epic fantasy novel by Brandon Sanderson. It is the first volume in a planned ten volume series called The Stormlight Archive.</p>
-            <button>Sign Up</button>
-        </div>
-        <div class="hero-image">
-            <img src="./images/way-of-kings.jpg" alt="The Way of Kings cover snippet">
-        </div>
-    </section>
-    <!------------------------ Random Info --------------------------->
-    <section class="characters">
-        <h2>The Main Characters</h2>
-        <div class="avatar-container">
-            <div class="avatar">
-                <div class="chr-image">
-                    <img src="./images/kaladin.jpg" alt="Kaladin with Syl at his shoulders">
+    <!--------------------------- HERO ------------------------------>
+    <main class="container">
+        <section class="hero">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <h1>The Way of Kings</h1>
+                    <p>The Way of Kings is an epic fantasy novel by Brandon Sanderson. It is the first volume in a planned ten volume series called The Stormlight Archive.</p>
+                    <button type="button">Sign Up</button>
                 </div>
-                <p>Kaladin Stormblessed</p>
-            </div>
-            <div class="avatar">
-                <div class="chr-image">
-                    <img src="./images/jasnah.jpg" alt="Jasnah holding a sword">
+                <div class="hero-image">
+                    <img src="./images/way-of-kings.jpg" alt="The Way of Kings cover snippet">
                 </div>
-                <p>Jasnah Kholin</p>
             </div>
-            <div class="avatar">
-                <div class="chr-image">
-                    <img src="./images/blackthorn.jpg" alt="Shallan looking intently">
+        </section>
+        <!------------------------ Random Info --------------------------->
+        <section class="characters">
+            <h2>The Main Characters</h2>
+            <div class="avatar-container">
+                <div class="avatar">
+                    <div class="chr-image">
+                        <img src="./images/kaladin.jpg" alt="Kaladin with Syl at his shoulders">
+                    </div>
+                    <p>Kaladin Stormblessed</p>
                 </div>
-                <p>Dalinar Kholin</p>
-            </div>
-            <div class="avatar">
-                <div class="chr-image">
-                    <img src="./images/shallan.jpg" alt="Shallan looking intently">
+                <div class="avatar">
+                    <div class="chr-image">
+                        <img src="./images/jasnah.jpg" alt="Jasnah holding a sword">
+                    </div>
+                    <p>Jasnah Kholin</p>
                 </div>
-                <p>Shallan Davar</p>
+                <div class="avatar">
+                    <div class="chr-image">
+                        <img src="./images/blackthorn.jpg" alt="Shallan looking intently">
+                    </div>
+                    <p>Dalinar Kholin</p>
+                </div>
+                <div class="avatar">
+                    <div class="chr-image">
+                        <img src="./images/shallan.jpg" alt="Shallan looking intently">
+                    </div>
+                    <p>Shallan Davar</p>
+                </div>
             </div>
-        </div>
-    </section>
-    <!----------------------------- Quote ------------------------------>
-    <section class="quote">
-        <div class="quote-container">
-            <p>“Somebody has to start. Somebody has to step forward and do what is right, because it is right.”</p>
-            <p class="author">Kaladin</p>
-        </div>
-    </section>
-    <!------------------------------ CTA ------------------------------->
-    <section class="cta">
-        <div class="cta-container">
-            <h3>Join the community! It's time!</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum incidunt ducimus id!</p>
-        </div>
-        <button class="cta-button">Sign Up</button>
-    </section>
+        </section>
+        <!----------------------------- Quote ------------------------------>
+        <section class="quote">
+            <div class="quote-container">
+                <p>“Somebody has to start. Somebody has to step forward and do what is right, because it is right.”</p>
+                <p class="author">Kaladin</p>
+            </div>
+        </section>
+        <!------------------------------ CTA ------------------------------->
+        <section class="cta">
+            <div class="cta-container">
+                <h3>Join the community! It's time!</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum incidunt ducimus id!</p>
+            </div>
+            <button class="cta-button" type="button">Sign Up</button>
+        </section>
+    </main>
     <!----------------------------- Footer ----------------------------->
     <footer>
         <p>Copyright © moshmoshca 2022</p>
