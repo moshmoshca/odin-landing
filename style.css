@@ -88,9 +88,41 @@ button {
     border-radius: 6px;
     border: none;
     font-size: 18px;
-    cursor: pointer;
 }
 
 .hero-image img {
    height: 250px;
+}
+
+/*-------------------- Character Info --------------------*/
+
+.characters h2 {
+    color: #1F2937;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    padding: 60px 0;
+}
+
+.avatar-container {
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chr-image img {
+    width: 200px;
+    border: 6px solid #3882F6;
+    border-radius: 16px;
+    margin-bottom: 12px;
+}
+
+.avatar p {
+    color: #1F2937;
 }
