@@ -5,7 +5,7 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-    color: #F9FAF8;
+    color: #1F2937;
 }
 
 /*-------------------- NAVIGATION BAR --------------------*/
@@ -30,7 +30,10 @@ header {
 .logo {
     font-size: 24px;
     font-weight: 600;
-    
+}
+
+.logo p {
+    color: #F9FAF8;
 }
 
 ul {
@@ -74,12 +77,14 @@ a {
     font-size: 48px;
     line-height: 48px;
     margin-bottom: 12px;
+    color: #F9FAF8;
 }
 
 .hero-text p {
     font-size: 18px;
     line-height: 26px;
     margin-bottom: 12px;
+    color: #F9FAF8;
 }
 
 button {
@@ -88,6 +93,7 @@ button {
     border-radius: 6px;
     border: none;
     font-size: 18px;
+    color: #F9FAF8;
 }
 
 .hero-image img {
@@ -95,6 +101,10 @@ button {
 }
 
 /*-------------------- Character Info --------------------*/
+
+.characters {
+    height: 470px;
+}
 
 .characters h2 {
     color: #1F2937;
@@ -125,4 +135,80 @@ button {
 
 .avatar p {
     color: #1F2937;
+}
+
+/*-------------------- Quote --------------------*/
+
+.quote {
+    background-color: #E5E7EB;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    max-width: 900px;
+}
+
+.quote-container p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-container .author {
+    text-align: right;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 30px;
+}
+
+/*-------------------------- CTA ---------------------------*/
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+}
+
+.cta-container {
+    background-color: #3882F6;
+    border-radius: 8px;
+    max-width: 1080px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.cta-text {
+    padding: 30px 90px;
+
+}
+
+.cta-text h3,
+.cta-text p {
+    color: #F9FAF8;
+}
+
+.cta-button {
+    margin: 30px 90px;
+    padding: 0 10px;
+    border: 2px solid #E5E7EB;
+    border-radius: 8px;
+}
+
+/*------------------------ Footer ------------------------*/
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.footer p {
+    color: #F9FAF8;
 }
